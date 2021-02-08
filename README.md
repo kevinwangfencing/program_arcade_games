@@ -46,7 +46,7 @@ average = (90 + 86 + 71 + 100 + 98) / 5
 
 1.9
 #trig functions
-# Calculate x using sine and cosine
+#calculate x using sine & cosine
 x = sin(0) + cos(0)
 
 1.10
