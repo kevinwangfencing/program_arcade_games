@@ -1,0 +1,69 @@
+3.1
+if statments
+# Variables used in the example if statements
+a = 4
+b = 5
+ 
+# Basic comparisons
+if a < b:
+    print("a is less than b")
+ 
+if a > b:
+    print("a is greater than b")
+ 
+print("Done")
+
+#type it hold down the 'alt' key while typing 243 on the number pad.) ≤
+#== asking if the var are equal
+#=  assigning a var
+
+3.2
+#Indentation
+#indentation under a statement must be the same spacing
+if a == 1:
+    print("If a is one, this will print.")
+    print("So will this.")
+    print("And this.")
+    
+3.3
+#using and & or
+ # And
+if a < b and a < c:
+    print("a is less than b and c")
+    
+3.4
+#Boolean variables can store either a True or a value of False
+#can set a variable as true or false. ex 1+2=true 
+# Boolean data type. This is legal!
+a = True
+if a:
+    print("a is true")
+    
+# How to use the not function
+if not(a):
+    print("a is false")
+    
+#if statement is zero which is treated as False. Any value other than zero is considered true.
+
+3.5
+#if else statement
+temperature = int(input("What is the temperature in Fahrenheit? "))
+temperature = int(input("What is the temperature in Fahrenheit? "))
+if temperature > 90:
+    print("It is hot outside")
+elif temperature > 110:
+    print("Oh man, you could fry eggs on the pavement!")
+elif temperature < 30:
+    print("It is cold outside")
+else:
+    print("It is ok outside")
+print("Done")
+
+3.6
+#Text comparison, use if statement to check text
+user_name = input("What is your name? ")
+if user_name == "Paul":
+    print("You have a nice name.")
+else:
+    print("Your name is ok.")
+#to the computer "Paul" is the same thing as True
